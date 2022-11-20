@@ -13,9 +13,9 @@ public class Main {
         Dog dog = new Dog("Bartas", 5, 2);
         Dog anotherDog = new Dog("Zulikas", 100, 2);
         Cat cat = new Cat(9, 4);
-        Squirel squirel = new Squirel();
+        Squirrel squirrel = new Squirrel();
 
-        Stream.of(dog, anotherDog, cat, squirel)
+        Stream.of(dog, anotherDog, cat, squirrel)
                 .map(animal -> {
                     printAnimalYearsToLive(animal);
                     return animal;

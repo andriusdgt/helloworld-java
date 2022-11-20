@@ -1,6 +1,6 @@
 package com.example.project;
 
-public class Squirel implements Animal {
+public class Squirrel implements Animal {
 
 
     @Override
