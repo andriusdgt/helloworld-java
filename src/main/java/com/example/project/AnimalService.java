@@ -14,7 +14,7 @@ public class AnimalService {
                 var bonusYears = name.charAt(0) == 'A' ? 1 : 0;
                 return 20 + bonusYears + barkCount - age;
             }
-            case Squirel(int age) -> {
+            case Squirrel(int age) -> {
                 return 10 - age;
             }
             case Animal.Snake snake -> {
@@ -28,7 +28,7 @@ public class AnimalService {
         switch (animal) {
             case Cat ignored -> System.out.println("cat fed");
             case Dog ignored -> System.out.println("dog fed");
-            case Squirel ignored -> System.out.println("squirel fed");
+            case Squirrel ignored -> System.out.println("squirel fed");
             case Animal.Snake ignored -> System.out.println("snake fed");
         }
     }
@@ -38,7 +38,7 @@ public class AnimalService {
         switch (animal) {
             case Cat ignored -> System.out.println("cat pet");
             case Dog ignored -> System.out.println("dog pet");
-            case Squirel ignored -> System.out.println("squirel pet");
+            case Squirrel ignored -> System.out.println("squirel pet");
             case Animal.Snake ignored -> System.out.println("snake pet");
         }
     }
@@ -49,7 +49,7 @@ public class AnimalService {
             }
             case Dog dog -> {
             }
-            case Squirel squirel -> {
+            case Squirrel squirrel -> {
             }
             case Animal.Snake snake -> {
             }
